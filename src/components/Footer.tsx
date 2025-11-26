@@ -15,7 +15,7 @@ const Footer = () => {
             <img 
               src={tuboLogo} 
               alt="Tubonasa" 
-              className="h-20 mb-4 w-auto"
+              className="h-24 mb-4 w-auto"
             />
             <p className="text-sm leading-relaxed mb-4">
               Mais de 45 anos fornecendo tubos industriais de qualidade para o mercado brasileiro.
