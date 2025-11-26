@@ -17,8 +17,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 20%;
 
-    --primary: 145 35% 52%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 147 85% 62%;
+    --primary-foreground: 188 100% 10%;
 
     --secondary: 220 20% 96%;
     --secondary-foreground: 220 15% 20%;
@@ -26,21 +26,21 @@ All colors MUST be HSL.
     --muted: 220 15% 96%;
     --muted-foreground: 220 10% 45%;
 
-    --accent: 145 35% 52%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 147 85% 62%;
+    --accent-foreground: 188 100% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 15% 90%;
     --input: 220 15% 90%;
-    --ring: 145 35% 52%;
+    --ring: 147 85% 62%;
 
     --radius: 0.5rem;
     
-    --industrial-dark: 220 20% 25%;
-    --industrial-darker: 220 25% 15%;
-    --success-green: 145 35% 52%;
+    --industrial-dark: 188 100% 15%;
+    --industrial-darker: 188 100% 10%;
+    --success-green: 147 85% 62%;
     --light-bg: 220 15% 98%;
 
     --sidebar-background: 0 0% 98%;
@@ -70,8 +70,8 @@ All colors MUST be HSL.
     --popover: 220 20% 18%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 145 35% 52%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 147 85% 62%;
+    --primary-foreground: 188 100% 10%;
 
     --secondary: 220 20% 25%;
     --secondary-foreground: 0 0% 98%;
@@ -79,19 +79,19 @@ All colors MUST be HSL.
     --muted: 220 20% 25%;
     --muted-foreground: 220 10% 65%;
 
-    --accent: 145 35% 52%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 147 85% 62%;
+    --accent-foreground: 188 100% 10%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 20% 25%;
     --input: 220 20% 25%;
-    --ring: 145 35% 52%;
+    --ring: 147 85% 62%;
     
-    --industrial-dark: 220 20% 25%;
-    --industrial-darker: 220 25% 15%;
-    --success-green: 145 35% 52%;
+    --industrial-dark: 188 100% 15%;
+    --industrial-darker: 188 100% 10%;
+    --success-green: 147 85% 62%;
     --light-bg: 220 20% 18%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
@@ -111,13 +111,14 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Montserrat', sans-serif;
     font-feature-settings: 'rlig' 1, 'calt' 1;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
