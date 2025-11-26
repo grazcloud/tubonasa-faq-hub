@@ -1,5 +1,5 @@
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
-import tuboLogo from "@/assets/tubonasa-logo.png";
+import tuboLogo from "@/assets/tubonasa-logo-white.svg";
 
 const Footer = () => {
   const handleWhatsAppClick = () => {
@@ -15,7 +15,7 @@ const Footer = () => {
             <img 
               src={tuboLogo} 
               alt="Tubonasa" 
-              className="h-12 mb-4 brightness-0 invert"
+              className="h-20 mb-4 w-auto"
             />
             <p className="text-sm leading-relaxed mb-4">
               Mais de 45 anos fornecendo tubos industriais de qualidade para o mercado brasileiro.

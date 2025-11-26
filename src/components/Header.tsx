@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import tuboLogo from "@/assets/tubonasa-logo.png";
+import tuboLogo from "@/assets/tubonasa-logo.svg";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -19,7 +19,7 @@ const Header = () => {
             <img 
               src={tuboLogo} 
               alt="Tubonasa - Tubos Industriais" 
-              className="h-16 w-auto"
+              className="h-24 w-auto"
             />
           </div>
 
