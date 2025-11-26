@@ -49,7 +49,7 @@ const HeroSection = () => {
               size="lg"
               variant="outline"
               onClick={handleWhatsAppClick}
-              className="border-2 border-white text-white hover:bg-white hover:text-industrial-darker text-lg px-8 py-6"
+              className="border-2 border-white bg-white text-industrial-darker hover:bg-white/90 text-lg px-8 py-6"
             >
               <Phone className="mr-2 h-5 w-5" />
               Solicitar Orçamento

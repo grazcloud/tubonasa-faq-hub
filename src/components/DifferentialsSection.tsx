@@ -20,7 +20,7 @@ const differentials = [
   {
     icon: Headphones,
     title: "Suporte Técnico Especializado",
-    description: "Equipe de engenheiros qualificados para orientação técnica e dimensionamento"
+    description: "Equipe qualificada para orientação técnica e dimensionamento"
   }
 ];
 
