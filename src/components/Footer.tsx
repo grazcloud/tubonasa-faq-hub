@@ -24,20 +24,15 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-white font-semibold mb-4 text-lg">Links Úteis</h3>
+          <h3 className="text-white font-semibold mb-4 text-lg">Links Úteis</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#produtos" className="text-sm hover:text-primary transition-colors">
+                <a href="https://tubonasa.com.br" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-primary transition-colors">
                   Produtos
                 </a>
               </li>
               <li>
-                <a href="#certificacoes" className="text-sm hover:text-primary transition-colors">
-                  Certificações
-                </a>
-              </li>
-              <li>
-                <a href="#sobre" className="text-sm hover:text-primary transition-colors">
+                <a href="https://tubonasa.com.br" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-primary transition-colors">
                   Sobre a Empresa
                 </a>
               </li>
@@ -101,7 +96,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-400">
-              © 2024 Tubonasa - Todos os direitos reservados
+              © 2026 Tubonasa - Todos os direitos reservados
             </p>
             <p className="text-sm text-gray-400">
               Desenvolvido com tecnologia e qualidade

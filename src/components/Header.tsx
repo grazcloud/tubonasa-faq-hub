@@ -19,7 +19,7 @@ const Header = () => {
             <img 
               src={tuboLogo} 
               alt="Tubonasa - Tubos Industriais" 
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
           </div>
 
