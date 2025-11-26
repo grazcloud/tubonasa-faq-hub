@@ -28,8 +28,8 @@ const Header = () => {
             <a href="#home" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Home
             </a>
-            <a href="#produtos" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-              Produtos
+            <a href="#faq" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+              Perguntas
             </a>
             <a href="#sobre" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Sobre
@@ -74,11 +74,11 @@ const Header = () => {
               Home
             </a>
             <a 
-              href="#produtos" 
+              href="#faq" 
               className="block text-sm font-medium text-foreground hover:text-primary transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Produtos
+              Perguntas
             </a>
             <a 
               href="#sobre" 

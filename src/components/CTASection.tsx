@@ -7,7 +7,7 @@ const CTASection = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-industrial-darker to-industrial-dark relative overflow-hidden">
+    <section id="contato" className="py-20 bg-gradient-to-br from-industrial-darker to-industrial-dark relative overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
