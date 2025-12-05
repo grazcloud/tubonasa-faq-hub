@@ -84,9 +84,8 @@ const Footer = () => {
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 mt-1 text-primary flex-shrink-0" />
               <address className="text-sm not-italic leading-relaxed">
-                Av. Amadeu Poli, 60<br />
-                Vila Guilherme<br />
-                São Paulo/SP
+                Av. Amadeu Poli, 60 - Parque Novo Mundo<br />
+                São Paulo - SP
               </address>
             </div>
           </div>
