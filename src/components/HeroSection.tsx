@@ -28,15 +28,11 @@ const HeroSection = () => {
           </Badge>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Tubos de Aço Carbono: Qualidade e Versatilidade para Todas as Aplicações
+            Tubos Industriais: Perguntas e Respostas
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-200 mb-4 leading-relaxed">
-            Tire suas dúvidas sobre tubos de aço carbono com especialistas Tubonasa. 45 anos de pioneirismo em tubos quadrados, metalon, retangulares e redondos certificados.
-          </p>
-          
-          <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-            Os tubos de aço carbono são a base de estruturas duráveis e eficientes na construção civil, indústria e serralheria. A Tubonasa oferece uma linha completa com normas técnicas rigorosas, garantindo resistência, soldabilidade e economia para seus projetos.
+          <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
+            Tire suas dúvidas com especialistas que têm 45 anos de experiência
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
